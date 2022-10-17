@@ -32,18 +32,11 @@ Topics
 <strong> Week8: </strong> Virtualization and Deployment
 
 
-Instructions to install app
------
-
-**Check deployed app: http://ec2-44-202-83-160.compute-1.amazonaws.com/**
-
 ## Prerequisites
 
 *  Python: [Download Python](https://www.python.org/downloads/)
-*  Django: `python -m pip install Django`
-*  Virtual Environment: `python -m venv myvenv`    
 *  PostgreSQL: [Download PostgreSQL](https://www.postgresql.org/download/)
-
+*  Docker: [Download Docker](https://www.docker.com/products/docker-desktop/)
 
 1. Clone repository:
 
@@ -65,4 +58,4 @@ Instructions to install app
 
         docker-compose up
 
-6. Go to your local host: [http://localhost](http://127.0.0.1:8000/)
+6. Go to your local host: [http://localhost:8000](http://localhost:8000/)
